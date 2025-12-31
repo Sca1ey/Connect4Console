@@ -1,3 +1,4 @@
+#include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
 #include <limits>
@@ -26,7 +27,7 @@ class Game {
 
         void displayBoard(){
 
-            std::cout << "\n";
+            std::cout << "\n\n\n\n\n";
 
             // Print Column heading numbers
             for(int x =0; x < COLUMNS; x++){
